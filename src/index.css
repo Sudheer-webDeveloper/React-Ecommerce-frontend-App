@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Onest", sans-serif; */
+}
+body{
+  width: 100vw;
+ 
+}
+
+
+/* body{
+  background:var(--body-color);
+}
+:root{
+  --body-color:black;
+} */
+
+
+
+/* import React, { useState } from 'react';
+import './styles.css';
+
+const App = () => {
+  const [themeMode, setThemeMode] = useState('light');
+
+  const toggleThemeMode = () => {
+    setThemeMode(themeMode === 'light' ? 'dark' : 'light');
+  };
+
+  return (
+    <div className={`App ${themeMode === 'dark' ? 'dark' : ''}`}>
+      <button onClick={toggleThemeMode}>Toggle Dark Mode</button>
+      ... // Rest of your components
+    </div>
+  );
+}; */
